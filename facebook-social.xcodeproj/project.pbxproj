@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FE5FD153CA14AC5F99EEBEA /* Pods_facebook_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA9AF61C82D7E8225D04238 /* Pods_facebook_social.framework */; };
 		985FBE731ED1737C00EF7DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FBE721ED1737C00EF7DDF /* AppDelegate.swift */; };
-		985FBE751ED1737C00EF7DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FBE741ED1737C00EF7DDF /* ViewController.swift */; };
+		985FBE751ED1737C00EF7DDF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FBE741ED1737C00EF7DDF /* SignInVC.swift */; };
 		985FBE781ED1737C00EF7DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE761ED1737C00EF7DDF /* Main.storyboard */; };
 		985FBE7B1ED1737C00EF7DDF /* facebook_social.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 985FBE791ED1737C00EF7DDF /* facebook_social.xcdatamodeld */; };
 		985FBE7D1ED1737C00EF7DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE7C1ED1737C00EF7DDF /* Assets.xcassets */; };
 		985FBE801ED1737C00EF7DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE7E1ED1737C00EF7DDF /* LaunchScreen.storyboard */; };
+		985FBE881ED173C000EF7DDF /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE871ED173C000EF7DDF /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CDED117CC489910DCAB2C07 /* Pods-facebook-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-social/Pods-facebook-social.release.xcconfig"; sourceTree = "<group>"; };
 		985FBE6F1ED1737C00EF7DDF /* facebook-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		985FBE721ED1737C00EF7DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		985FBE741ED1737C00EF7DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		985FBE741ED1737C00EF7DDF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		985FBE771ED1737C00EF7DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		985FBE7A1ED1737C00EF7DDF /* facebook_social.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = facebook_social.xcdatamodel; sourceTree = "<group>"; };
 		985FBE7C1ED1737C00EF7DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		985FBE7F1ED1737C00EF7DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		985FBE811ED1737C00EF7DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985FBE871ED173C000EF7DDF /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		A9066F105752B56405CB6B79 /* Pods-facebook-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-social/Pods-facebook-social.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA9AF61C82D7E8225D04238 /* Pods_facebook_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_facebook_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE5FD153CA14AC5F99EEBEA /* Pods_facebook_social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4907D4D4614E287516C9F9D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9066F105752B56405CB6B79 /* Pods-facebook-social.debug.xcconfig */,
+				0CDED117CC489910DCAB2C07 /* Pods-facebook-social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91766BD4F956CA18525102C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA9AF61C82D7E8225D04238 /* Pods_facebook_social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		985FBE661ED1737C00EF7DDF = {
 			isa = PBXGroup;
 			children = (
 				985FBE711ED1737C00EF7DDF /* facebook-social */,
 				985FBE701ED1737C00EF7DDF /* Products */,
+				4907D4D4614E287516C9F9D5 /* Pods */,
+				91766BD4F956CA18525102C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,40 @@
 		985FBE711ED1737C00EF7DDF /* facebook-social */ = {
 			isa = PBXGroup;
 			children = (
+				985FBE891ED1756600EF7DDF /* Model */,
+				985FBE8B1ED1757B00EF7DDF /* Controller */,
+				985FBE8A1ED1756E00EF7DDF /* View */,
 				985FBE721ED1737C00EF7DDF /* AppDelegate.swift */,
-				985FBE741ED1737C00EF7DDF /* ViewController.swift */,
 				985FBE761ED1737C00EF7DDF /* Main.storyboard */,
 				985FBE7C1ED1737C00EF7DDF /* Assets.xcassets */,
 				985FBE7E1ED1737C00EF7DDF /* LaunchScreen.storyboard */,
+				985FBE871ED173C000EF7DDF /* GoogleService-Info (1).plist */,
 				985FBE811ED1737C00EF7DDF /* Info.plist */,
 				985FBE791ED1737C00EF7DDF /* facebook_social.xcdatamodeld */,
 			);
 			path = "facebook-social";
+			sourceTree = "<group>";
+		};
+		985FBE891ED1756600EF7DDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		985FBE8A1ED1756E00EF7DDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		985FBE8B1ED1757B00EF7DDF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				985FBE741ED1737C00EF7DDF /* SignInVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 985FBE841ED1737C00EF7DDF /* Build configuration list for PBXNativeTarget "facebook-social" */;
 			buildPhases = (
+				C3A52F8DA180EB8BC6192745 /* [CP] Check Pods Manifest.lock */,
 				985FBE6B1ED1737C00EF7DDF /* Sources */,
 				985FBE6C1ED1737C00EF7DDF /* Frameworks */,
 				985FBE6D1ED1737C00EF7DDF /* Resources */,
+				5EE1FF5EFE4B0AA64F6519F0 /* [CP] Embed Pods Frameworks */,
+				19E57D9A9C07256E852E9A0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,17 +183,66 @@
 				985FBE801ED1737C00EF7DDF /* LaunchScreen.storyboard in Resources */,
 				985FBE7D1ED1737C00EF7DDF /* Assets.xcassets in Resources */,
 				985FBE781ED1737C00EF7DDF /* Main.storyboard in Resources */,
+				985FBE881ED173C000EF7DDF /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19E57D9A9C07256E852E9A0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-facebook-social/Pods-facebook-social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EE1FF5EFE4B0AA64F6519F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-facebook-social/Pods-facebook-social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A52F8DA180EB8BC6192745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		985FBE6B1ED1737C00EF7DDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985FBE751ED1737C00EF7DDF /* ViewController.swift in Sources */,
+				985FBE751ED1737C00EF7DDF /* SignInVC.swift in Sources */,
 				985FBE7B1ED1737C00EF7DDF /* facebook_social.xcdatamodeld in Sources */,
 				985FBE731ED1737C00EF7DDF /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +363,7 @@
 		};
 		985FBE851ED1737C00EF7DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9066F105752B56405CB6B79 /* Pods-facebook-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "facebook-social/Info.plist";
@@ -272,6 +376,7 @@
 		};
 		985FBE861ED1737C00EF7DDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CDED117CC489910DCAB2C07 /* Pods-facebook-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "facebook-social/Info.plist";
@@ -301,6 +406,7 @@
 				985FBE861ED1737C00EF7DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
