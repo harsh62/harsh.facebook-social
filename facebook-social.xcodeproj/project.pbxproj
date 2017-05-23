@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		5FE5FD153CA14AC5F99EEBEA /* Pods_facebook_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA9AF61C82D7E8225D04238 /* Pods_facebook_social.framework */; };
+		98346F1B1ED2EDBA00E5ECB4 /* Fancy View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346F1A1ED2EDBA00E5ECB4 /* Fancy View.swift */; };
+		98346F1E1ED2EEC200E5ECB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346F1D1ED2EEC200E5ECB4 /* Constants.swift */; };
+		98346F221ED4A2D700E5ECB4 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346F211ED4A2D700E5ECB4 /* TextEditor.swift */; };
+		98346F241ED4A4DC00E5ECB4 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98346F231ED4A4DC00E5ECB4 /* FancyBtn.swift */; };
 		985FBE731ED1737C00EF7DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FBE721ED1737C00EF7DDF /* AppDelegate.swift */; };
 		985FBE751ED1737C00EF7DDF /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985FBE741ED1737C00EF7DDF /* SignInVC.swift */; };
 		985FBE781ED1737C00EF7DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE761ED1737C00EF7DDF /* Main.storyboard */; };
 		985FBE7B1ED1737C00EF7DDF /* facebook_social.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 985FBE791ED1737C00EF7DDF /* facebook_social.xcdatamodeld */; };
 		985FBE7D1ED1737C00EF7DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE7C1ED1737C00EF7DDF /* Assets.xcassets */; };
 		985FBE801ED1737C00EF7DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE7E1ED1737C00EF7DDF /* LaunchScreen.storyboard */; };
-		985FBE881ED173C000EF7DDF /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE871ED173C000EF7DDF /* GoogleService-Info (1).plist */; };
+		985FBE881ED173C000EF7DDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 985FBE871ED173C000EF7DDF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CDED117CC489910DCAB2C07 /* Pods-facebook-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-social/Pods-facebook-social.release.xcconfig"; sourceTree = "<group>"; };
+		98346F1A1ED2EDBA00E5ECB4 /* Fancy View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fancy View.swift"; sourceTree = "<group>"; };
+		98346F1D1ED2EEC200E5ECB4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		98346F211ED4A2D700E5ECB4 /* TextEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
+		98346F231ED4A4DC00E5ECB4 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		985FBE6F1ED1737C00EF7DDF /* facebook-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "facebook-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		985FBE721ED1737C00EF7DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		985FBE741ED1737C00EF7DDF /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -27,7 +35,7 @@
 		985FBE7C1ED1737C00EF7DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		985FBE7F1ED1737C00EF7DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		985FBE811ED1737C00EF7DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		985FBE871ED173C000EF7DDF /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		985FBE871ED173C000EF7DDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A9066F105752B56405CB6B79 /* Pods-facebook-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebook-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebook-social/Pods-facebook-social.debug.xcconfig"; sourceTree = "<group>"; };
 		CDA9AF61C82D7E8225D04238 /* Pods_facebook_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_facebook_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +69,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		98346F1C1ED2EE7000E5ECB4 /* UTill */ = {
+			isa = PBXGroup;
+			children = (
+				98346F1D1ED2EEC200E5ECB4 /* Constants.swift */,
+			);
+			name = UTill;
+			sourceTree = "<group>";
+		};
 		985FBE661ED1737C00EF7DDF = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +98,7 @@
 		985FBE711ED1737C00EF7DDF /* facebook-social */ = {
 			isa = PBXGroup;
 			children = (
+				98346F1C1ED2EE7000E5ECB4 /* UTill */,
 				985FBE891ED1756600EF7DDF /* Model */,
 				985FBE8B1ED1757B00EF7DDF /* Controller */,
 				985FBE8A1ED1756E00EF7DDF /* View */,
@@ -89,7 +106,7 @@
 				985FBE761ED1737C00EF7DDF /* Main.storyboard */,
 				985FBE7C1ED1737C00EF7DDF /* Assets.xcassets */,
 				985FBE7E1ED1737C00EF7DDF /* LaunchScreen.storyboard */,
-				985FBE871ED173C000EF7DDF /* GoogleService-Info (1).plist */,
+				985FBE871ED173C000EF7DDF /* GoogleService-Info.plist */,
 				985FBE811ED1737C00EF7DDF /* Info.plist */,
 				985FBE791ED1737C00EF7DDF /* facebook_social.xcdatamodeld */,
 			);
@@ -106,6 +123,9 @@
 		985FBE8A1ED1756E00EF7DDF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				98346F1A1ED2EDBA00E5ECB4 /* Fancy View.swift */,
+				98346F211ED4A2D700E5ECB4 /* TextEditor.swift */,
+				98346F231ED4A4DC00E5ECB4 /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -183,7 +203,7 @@
 				985FBE801ED1737C00EF7DDF /* LaunchScreen.storyboard in Resources */,
 				985FBE7D1ED1737C00EF7DDF /* Assets.xcassets in Resources */,
 				985FBE781ED1737C00EF7DDF /* Main.storyboard in Resources */,
-				985FBE881ED173C000EF7DDF /* GoogleService-Info (1).plist in Resources */,
+				985FBE881ED173C000EF7DDF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98346F1E1ED2EEC200E5ECB4 /* Constants.swift in Sources */,
+				98346F221ED4A2D700E5ECB4 /* TextEditor.swift in Sources */,
 				985FBE751ED1737C00EF7DDF /* SignInVC.swift in Sources */,
+				98346F1B1ED2EDBA00E5ECB4 /* Fancy View.swift in Sources */,
 				985FBE7B1ED1737C00EF7DDF /* facebook_social.xcdatamodeld in Sources */,
 				985FBE731ED1737C00EF7DDF /* AppDelegate.swift in Sources */,
+				98346F241ED4A4DC00E5ECB4 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
